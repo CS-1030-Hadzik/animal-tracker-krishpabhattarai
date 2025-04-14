@@ -14,8 +14,15 @@ if __name__ == "__main__":
     print("-----")
 
 # TODO: Create an instance of the Dog class
+    dog1 = Dog("Buddy", "Canine", "Golden Retriever")
 
 # TODO: Print the Dog instance
+    print(dog1)
 
 # TODO: Call the method to make the dog-specific sound
+    print(dog1.speak())
+    print("-----")
+    
 # TODO print out all the animals
+    print("All animals:")
+
