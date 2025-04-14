@@ -22,7 +22,8 @@ if __name__ == "__main__":
 # TODO: Call the method to make the dog-specific sound
     print(dog1.speak())
     print("-----")
-    
+
 # TODO print out all the animals
     print("All animals:")
-
+    Animal.all_animals
+    print(dog1) 
