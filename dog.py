@@ -15,12 +15,12 @@ class Dog(Animal):
 # Call the method `speak` and make it output a specific message like 
 # "The dog barks.
     def speak(self):
-        return "The dog barks."
+        print("The dog barks.")
 
 
 # TODO: Override the __str__ method to include the breed.
 # Example output:
 # Kingdom: 'kingdom attribute', Name: 'name attribute', Species: 'species attribute', Breed: 'breed attribute'
     def __str__(self):
-        return f"Kingdom: {self.kingdom}, Name: {self.name}, Species: {self.species}, Breed: {self.breed}"
+        return f"Kingdom: '{self.kingdom}', Name: '{self.name}', Species: '{self.species}', Breed: '{self.breed}'"
 
