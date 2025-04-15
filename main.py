@@ -4,7 +4,6 @@ from dog import Dog
 if __name__ == "__main__":
 # TODO: Create an instance of the Animal class
     animal1 = Animal("Simba", "Lion")
-    print(animal1.speak())
 
 # TODO: Print the Animal instance
     print(animal1)
@@ -26,4 +25,5 @@ if __name__ == "__main__":
 # TODO print out all the animals
     print("All animals:")
     Animal.all_animals
+    print(animal1)
     print(dog1) 

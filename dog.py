@@ -7,9 +7,8 @@ class Dog(Animal):
 # TODO: Initialize the Dog class and add the breed attribute.
 # The constructor should accept name, species, and breed as parameters.
     def __init__(self, name, species, breed):
-        self.name = name
-        self.species = species
-        self.breed = breed
+       super().__init__(name, species)
+       self.breed = breed
 
 # TODO: Add a method for the dog to make a specific sound. 
 # Call the method `speak` and make it output a specific message like 
