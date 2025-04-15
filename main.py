@@ -26,4 +26,4 @@ if __name__ == "__main__":
     print("All animals:")
     Animal.all_animals
     print(animal1)
-    print(dog1) 
+    print(dog1)
